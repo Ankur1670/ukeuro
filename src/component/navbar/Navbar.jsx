@@ -17,8 +17,8 @@ const Navbar = () => {
             About
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="#">Overview</a></li>
-            <li><a class="dropdown-item" href="#">News And Event </a></li>
+            <li><a class="dropdown-item" href="/overview">Overview</a></li>
+            <li><a class="dropdown-item" href="/newsevent">News And Event </a></li>
             <li><a class="dropdown-item" href="#">Enquire Now</a></li>
           </ul>
         </li>
@@ -28,21 +28,21 @@ const Navbar = () => {
             Accreditaion
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="#">Known About Accreditaion </a></li>
-            <li><a class="dropdown-item" href="#">Advantage of Accreditaion </a></li>
-            <li><a class="dropdown-item" href="#">Product And Personal Certification</a></li>
-            <li><a class="dropdown-item" href="#">Fee Criteria</a></li>
-            <li><a class="dropdown-item" href="#">How to Accredit your Org.</a></li>
-            <li><a class="dropdown-item" href="#">Ratings</a></li>
-            <li><a class="dropdown-item" href="#">Check Accredict Body</a></li>
+            <li><a class="dropdown-item" href="/knowabout">Known About Accreditaion </a></li>
+            <li><a class="dropdown-item" href="/advantages">Advantage of Accreditaion </a></li>
+            <li><a class="dropdown-item" href="/product">Product And Personal Certification</a></li>
+            <li><a class="dropdown-item" href="/fee">Fee Criteria</a></li>
+            <li><a class="dropdown-item" href="howto">How to Accredit your Org.</a></li>
+            <li><a class="dropdown-item" href="/rating">Ratings</a></li>
+            <li><a class="dropdown-item" href="/check">Check Accredict Body</a></li>
 
 
 
 
           </ul>
         </li>
-      <li><a href="/contact">EUALS Inspection</a></li>
-      <li><a href="/contact">Career</a></li>
+      <li><a href="/inspection">EUALS Inspection</a></li>
+      <li><a href="/career">Career</a></li>
       <li><a href="/contact">Contact</a></li>
 
 

@@ -15,6 +15,9 @@
     /* margin-bottom: 350px; */
     margin-bottom: 15vw;
 }
+.Image_Section{
+  padding-top: 7rem;
+}
 
 .Image_Section h1 span{
     color: aqua;
