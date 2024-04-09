@@ -1,0 +1,197 @@
+.Image_Section h1{
+    z-index: 6;
+    min-width: 598px;
+    max-width: 598px;
+    white-space: normal;
+    visibility: inherit;
+    transition: none 0s ease 0s;
+    line-height: 67px;
+    padding: 3px;
+    font-weight: 700;
+    font-size: 59px;
+    
+    opacity: 1;
+    text-align: justify;
+    /* margin-bottom: 350px; */
+    margin-bottom: 15vw;
+}
+
+.Image_Section h1 span{
+    color: aqua;
+}
+
+.a{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0 , 0.6);
+    z-index: 1;
+}
+.carousel-caption{
+    z-index:3;
+}
+
+
+.row .card img{
+width: 100px;
+margin: auto;
+margin-top: 12px;
+}
+.row .card{
+    
+ background-color:    #00a3c8 !important;
+ border-radius: 0px;
+ height: 360px;
+}
+.row .card h4{
+    color: #fff !important;
+    padding: 3px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+.row .card p{
+    color: #fff !important;
+    padding: 3px;
+    line-height: 1.7;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+.row .card a{
+    background-color: #00a3c8 ;
+    color: #fff;
+    background-color: #07b6dd;
+    border-color: #00a3c8;
+    margin-left: 80px;
+}
+
+.row  .c2{
+    
+    background-color:    #0086A7 !important ;
+   }
+
+
+  .lis_section h2{
+    margin-top: 54px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    line-height: 1.42857143;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #0086A7 !important;
+  }
+  .lis_section p{
+    margin-top: 12px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.4;
+    text-align: justify;
+}  
+
+.lis_section button{
+    background-color: #fff;
+    color: #07b6dd;
+    border-color: #00a3c8;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+margin-top: 10px;
+}
+.lis_section button:hover{
+    background-color: #07b6dd;
+    color: #fff;
+}
+
+
+.offer_section h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    line-height: 1.42857143;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.offer_section p{
+    margin-top: 12px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.4;
+}
+.offer_section .row .offer_img{
+    border: 3px solid #eeeeee !important;   
+     margin: auto;
+     margin-bottom: 10px;
+}
+.offer_section .row img{
+    padding:5px;
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+
+    .Image_Section h1{
+        margin-bottom: 2vw;
+        font-size: 14px;
+        line-height: 1px;
+        padding: 0px;
+        margin-right: 20px;
+    }
+    .Image_Section Button{
+        margin-top: 12px;
+        font-size: 12px;
+    }
+
+    .card_Section{
+    padding: 0;
+    margin: 0;
+  }
+  .row .card{
+    height: 300px;
+  }
+  .row .card h4{
+    font-size: 14px;
+    padding: 0px;
+  }
+  .row .card p{
+    font-size: 14px;
+    padding: 0px;
+  }
+
+  .row .card a{
+    margin-left: 100px;
+  }
+
+  .lis_section h2{
+    text-align: justify;
+    font-size: 22px;
+    margin-top: 30px;
+    font-weight: 600;
+
+  }
+  .lis_section p{
+    text-align: justify;
+    font-size: 14px;
+  }
+  .lis_section img{
+    margin-top: 9px;
+  }
+
+  .offer_section h2{
+    font-size: 22px;
+    font-weight: 600;
+  }
+  .offer_section p{
+    font-size: 14px;
+
+  }
+  .offer_section .row .offer_img{
+    margin-top: 12px;
+    margin-bottom: 8px;
+
+  }
+  .offer_section .row img{
+    margin-left: 18px;
+  }
+
+}

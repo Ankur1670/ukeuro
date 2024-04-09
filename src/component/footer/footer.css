@@ -1,0 +1,56 @@
+.footer_section .container-fluid{
+    background-color: black;
+}
+.footer_section .row img{
+    margin-top: 74px;
+}
+.footer_section h4{
+    color: #fff !important;
+    padding: 3px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 26px;
+    margin-top: 23px;
+}
+.row ul li{
+    list-style: none;
+    border-bottom:#808080 dotted ;
+}
+.row ul li a{
+    text-decoration: none;
+    color: #808080;
+    margin-left: 80px;
+    line-height: 2.7;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+.row .add ul li{
+    
+color:aqua;
+border-bottom: 0px;
+
+}
+.row .add ul li span{
+    
+    margin-left: 5px;
+    text-decoration: none;
+    color: #808080;
+    line-height: 2.7;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+
+}
+small{
+    text-align: center;
+    margin-left: 500px;
+    background-color: #393939;
+}
+.copyright_section{
+    background-color: #393939;
+color: #fff;
+margin-bottom: 10px
+}
