@@ -14,6 +14,8 @@ import Fee from './pages/Fee';
 import Howto from './pages/Howto';
 import Rating from './pages/Rating';
 import Check from './pages/Check';
+import CheckAccreditedBody from "./pages/check-accredited-body.jsx";
+import Contact from "./pages/contact.jsx";
 function App() {
   const [count, setCount] = useState(0)
 
@@ -33,6 +35,9 @@ function App() {
     <Route path='/howto' element={<Howto/>}/>
     <Route path='/rating' element={<Rating/>}/>
     <Route path='/check' element={<Check/>}/>
+    <Route path='/CheckAccreditedBody' element={<CheckAccreditedBody/>}/>
+    <Route path='/contact' element={<Contact/>}/>
+
 
 
 

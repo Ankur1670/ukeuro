@@ -14,11 +14,11 @@
     font-size: 26px;
     margin-top: 23px;
 }
-.row ul li{
+.footer_section .row ul li{
     list-style: none;
     border-bottom:#808080 dotted ;
 }
-.row ul li a{
+.footer_section .row ul li a{
     text-decoration: none;
     color: #808080;
     margin-left: 80px;
@@ -27,13 +27,13 @@
     font-weight: 400;
 
 }
-.row .add ul li{
+.footer_section .row .add ul li{
     
 color:aqua;
 border-bottom: 0px;
 
 }
-.row .add ul li span{
+.footer_section .row .add ul li span{
     
     margin-left: 5px;
     text-decoration: none;
