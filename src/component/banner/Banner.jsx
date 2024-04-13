@@ -1,8 +1,8 @@
 import Carousel from 'react-bootstrap/Carousel';
 import Image from 'react-bootstrap/Image';
-import b1 from '../../assets/bg1.png'
-import b2 from '../../assets/bg2.png'
-import b3 from '../../assets/bg3.png'
+import b1 from '../../assets/b1.jpg'
+import b2 from '../../assets/b2.jpg'
+import b3 from '../../assets/b3.jpg'
 import user from '../../assets/user.png'
 import lis from '../../assets/lis.png'
 import o1 from '../../assets/o1.png'
@@ -33,7 +33,7 @@ import c7 from '../../assets/c7.png'
 import React from 'react'
 import './banner.css'
 const Banner = () => {
-
+    const height='650vh'
   return (
     <div className='Image_Section '>
       <Carousel
@@ -44,8 +44,8 @@ const Banner = () => {
             <Image 
                 src={b1}
                 width='100%'
-                height='564vw'
-                className={'Carousel-img img-fluid '}
+                height={height}
+                className={'Carousel-img object-fit-cover '}
 
             />
      <Carousel.Caption >
@@ -61,9 +61,9 @@ const Banner = () => {
             <Image
                 src={b2}
                 width='100%'
-                height='564vw'
+                height={height}
                 
-                className={'Carousel-img img-fluid '}
+                className={'Carousel-img object-fit-cover '}
 
 
             />
@@ -80,8 +80,8 @@ const Banner = () => {
             <Image
                 src={b3}
                 width='100%'
-                height='564vw'
-                className={'Carousel-img img-fluid '}
+                height={height}
+                className={'Carousel-img object-fit-cover '}
                 
 
             />
