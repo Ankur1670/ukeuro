@@ -42,7 +42,7 @@ margin-top: 12px;
 }
 .row .card{
     
- background-color:    #00a3c8 !important;
+ background-color:var(--tg-background-color) !important;
  border-radius: 0px;
  height: 360px;
 }
@@ -65,16 +65,16 @@ margin-top: 12px;
     text-align: center;
 }
 .row .card a{
-    background-color: #00a3c8 ;
+    background-color: #364182;
     color: #fff;
-    background-color: #07b6dd;
-    border-color: #00a3c8;
+    background-color: #364182;
+    border-color: #364182;
     margin-left: 80px;
 }
 
 .row  .c2{
     
-    background-color:    #0086A7 !important ;
+    background-color:  var(--tg-lightbackground-color) !important ;
    }
 
 
