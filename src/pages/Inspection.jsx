@@ -6,7 +6,7 @@ const Inspection = () => {
     <div>
       <Navbar/>
       <div className="ins" style={{paddingTop:134, marginLeft:20}}>
-<h2>EUALS <span style={{color:"#00a3c8"}}>Inspection</span></h2>
+<h2>EUALS <span style={{color:"#364182"}}>Inspection</span></h2>
 <p><b>Inspection
 </b></p>
 <p>An inspection is an activity such as measuring, examining, testing or gauging one or more characteristics of a product and comparing the results with specified requirements in order to establish whether conformity is achieved for each characteristic. The term inspection refers to the activity of checking products, whereas audit applies to analyzing manufacturing processes and/or systems. The quality inspector usually follows a pre-established checklist that is based on the product specifications. Inspected products can be the components used for production, semi-finished goods, or (most often) finished goods before shipment to a customer.

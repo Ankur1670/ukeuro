@@ -11,7 +11,7 @@ const Howto = () => {
           <div class="row">
             
             <div class="col-md-12">
-              <h2 class="font-size-38 mt-0">How to  <span style={{color:"#00a3c8"}}> Accredit </span> your Org. </h2>
+              <h2 class="font-size-38 mt-0">How to  <span style={{color:"#364182"}}> Accredit </span> your Org. </h2>
               
               
               <p class="lead " align="justify">

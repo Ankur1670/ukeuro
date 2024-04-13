@@ -6,7 +6,7 @@ const Newsevent = () => {
     <div>
       <Navbar/>
       <div className="news"style={{paddingTop:134, marginLeft:20}}>
-        <h2>EUALS <span style={{color:"#00a3c8"}}>News & Event</span></h2>
+        <h2>EUALS <span style={{color:"#364182"}}>News & Event</span></h2>
 <p>We are internationally recognized for ISO certifications. Our world-class services across all the major business-related manufacturing, servicing, etc. Information, which provided by the conformity assessment body (CAB).
 </p>
 <p> <b>News:</b> We provide press releases and press articles on Social Platform

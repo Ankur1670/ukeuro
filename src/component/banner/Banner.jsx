@@ -50,7 +50,7 @@ const Banner = () => {
             />
      <Carousel.Caption >
           <h1>International <span>Certification</span> Accreditation Body <br />
-          <button className="btn btn-primary">Read More</button>
+          <button className="btn">Read More</button>
           </h1>
           
         </Carousel.Caption>
@@ -70,7 +70,7 @@ const Banner = () => {
      <Carousel.Caption>
           <h1>Euro Uk <span>Independent</span> Impartial Accreditation Body 
 
-        <br />  <button className="btn btn-primary">Read More</button>
+        <br />  <button className="btn">Read More</button>
  </h1>
         </Carousel.Caption>
            
@@ -87,7 +87,7 @@ const Banner = () => {
             />
              <Carousel.Caption>
           <h1>Euro Uk <span>Global</span>  Accreditation-Body  <br />
-          <button className="btn btn-primary">Read More</button>
+          <button className="btn ">Read More</button>
 
           </h1>
           

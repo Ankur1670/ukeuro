@@ -20,9 +20,15 @@
 }
 
 .Image_Section h1 span{
-    color: aqua;
+    color: #364182;
 }
-
+.Image_Section .btn{
+  background-color: #364182;
+    color: white;
+    border-color: #364182;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
 .a{
     position: absolute;
     height: 100%;
@@ -96,15 +102,15 @@ margin-top: 12px;
 }  
 
 .lis_section button{
-    background-color: #fff;
-    color: #07b6dd;
-    border-color: #00a3c8;
+    background-color: #364182;
+    color: white;
+    border-color: #364182;
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
 margin-top: 10px;
 }
 .lis_section button:hover{
-    background-color: #07b6dd;
+    background-color: #364182;
     color: #fff;
 }
 

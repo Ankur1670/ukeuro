@@ -11,7 +11,7 @@ const Advantage = () => {
           <div class="row">
             
             <div class="col-md-12">
-              <h2 class="font-size-38 mt-0">Advantage  <span style={{color:"#00a3c8"}}> of Accreditation</span> </h2>
+              <h2 class="font-size-38 mt-0">Advantage  <span style={{color:"#364182"}}> of Accreditation</span> </h2>
               
                <p class="lead " align="justify">
 &raquo;	Accreditation standards are generally considered optimal and attainable.<br/><br/>
