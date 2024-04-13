@@ -10,8 +10,8 @@ const Footer = () => {
     <div className='footer_section mt-5'>
         <div className="container-fluid">
             <div className="row">
-                <div className="col-lg-3 col md-3 col-sm-12">
-<img src={f1} alt="" className='rounded mx-auto d-block ' />
+                <div className="col-lg-3 col md-3  col-sm-12">
+<img src={f1} alt="" className='rounded offset-md-3 w-50' />
                 </div>
                 <div className="col-lg-3 col md-3 col-sm-12">
                     <h4>Useful Links</h4>

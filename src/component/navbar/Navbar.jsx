@@ -1,8 +1,7 @@
 import React ,{useState} from 'react'
 import './navbar.css';
 import logo from '../../assets/logo.png'
-import CheckAccreditedBody from "../../pages/check-accredited-body.jsx";
-import Contact from "../../pages/contact.jsx";
+
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);

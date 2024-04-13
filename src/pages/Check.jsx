@@ -1,10 +1,116 @@
 import Navbar from '../component/navbar/Navbar'
 import Footer from '../component/footer/Footer'
+import {useState} from "react";
+import axios from "axios";
+
+const client = axios.create({
+    baseURL: import.meta.env.VITE__APP_URL,
+    headers:{
+        'Content-Type': 'application/json',
+
+    },
+});
+
 const Check = () => {
+    const [data, setData] = useState ({})
+    const [response, setResponse] = useState ({})
+    const [show, setShow] = useState (false)
+
+    const handelSubmit = (e) => {
+        e.preventDefault()
+
+        client.get(`/certificate/check/?CertificateNumber=${data['CertificateNumber']}`,).then((r)=>{
+            if(r.status===200){
+                console.log(r.data)
+                setResponse(r.data)
+                setShow(true)
+            }
+        })
+    }
+    const handelChange = (e) => {
+        setData( {...data,[e.target.id]:e.target.value})
+    }
   return (
     <>
       <Navbar/>
-      <div className="main-content " style={{paddingTop:134}} >
+        <div className="main-content " style={{paddingTop:134}} >
+      {show?(
+              <section id="about">
+                  <div className="container">
+                      <div className="section-content">
+                          <div className="row">
+
+                              <div className="col-md-12">
+                                  <h2 className="font-size-38 mt-0">Certified   <span className="text-theme-colored">Organization</span></h2>
+
+                                  <div style={{overflow:"auto"}}>
+                                      Please enter a valid Certificate No.
+
+                                      <div className="table-responsive">
+                                          <table className="table table-bordered" align="center">
+                                              <thead>
+                                              <tr>
+                                                  <th style={{color:"#196ABB"}}>Company Name</th>
+                                                  <td><b>{response.company}</b></td>
+
+                                              </tr>
+
+                                              <tr>
+                                                  <th style={{color:"#196ABB"}}>Certificate No.</th>
+                                                  <td><b>{response.Certificate_Number}</b></td>
+
+                                              </tr>
+
+                                              <tr>
+                                                  <th style={{color:"#196ABB"}}>Address</th>
+                                                  <td>{response.address}</td>
+
+                                              </tr>
+                                              <tr>
+                                                  <th style={{color:"#196ABB"}}>Scope</th>
+                                                  <td>{response.address}</td>
+
+                                              </tr>
+
+                                              <tr>
+                                                  <th style={{color:"#196ABB"}}>Standard</th>
+                                                  <td><b>{response.certificate_type}</b></td>
+
+                                              </tr>
+
+                                              <tr>
+                                                  <th style={{color:"#196ABB"}}>Status</th>
+                                                  <td><b>{response.certificate_type}</b></td>
+
+                                              </tr>
+
+                                              <tr>
+                                                  <th style={{color:"#196ABB"}}>Issue Date</th>
+                                                  <td>{response.IssueDate}</td>
+
+                                              </tr>
+
+                                              <tr>
+                                                  <th style={{color:"#196ABB"}}>Expiry Date</th>
+                                                  <td>{response.ExpiryDate}</td>
+                                              </tr>
+
+                                              </thead>
+
+                                          </table>
+                                      </div>
+
+
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </section>
+
+
+         ):
+
               <section id="about">
                   <div className="container">
                       <div className="section-content">
@@ -12,7 +118,7 @@ const Check = () => {
 
                               <div className="col-md-12">
                                   <h2 className="font-size-38 mt-0">Track your   <span className="text-theme-colored">Organization Application Status  </span></h2>
-                                  <p className="lead" align="justify">Track your Organization Application Status
+                                  <p className="lead" >Track your Organization Application Status
                                       Tracking the organization application status is quite a short and simple process. Write your certification number and country. <br/>
                                           You can check your certificate status.
 
@@ -20,13 +126,13 @@ const Check = () => {
 
 
 
-                                  <form action="result.php" name="org" method="POST">
+                                  <form action="" name="org" method="POST">
                                       <table border="1" className={'table'}>
                                           <tbody>
                                           <tr>
                                               <td>Certificate Number*</td>
                                               <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                                              <td><input type="text" name="cno" className="form-control required"/></td>
+                                              <td><input onChange={handelChange} type="text" id={'CertificateNumber'} name="cno" className="form-control required"/></td>
                                           </tr>
                                           <tr>
                                               <td>Country*</td>
@@ -548,7 +654,7 @@ const Check = () => {
                                   </table>
                                   <p></p>
 
-                                  <button type="submit" className="btn btn-dark btn-theme-colored btn-flat mr-5" data-loading-text="Please wait...">Submit</button>
+                                  <button type="submit"  onClick={handelSubmit} className="btn btn-dark btn-theme-colored btn-flat mr-5" data-loading-text="Please wait...">Submit</button>
                                   <p></p>
                                       </form>
                           </div>
@@ -558,7 +664,8 @@ const Check = () => {
         </section>
 
 
-    </div>
+    }
+</div>
       <Footer/>
     </>
   )
