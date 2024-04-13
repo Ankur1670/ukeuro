@@ -7,14 +7,14 @@ const Product = () => {
       <Navbar/>
 
       <section id="about" style={{paddingTop:134, marginLeft:20}}>
-      <div class="container">
-        <div class="section-content">
-          <div class="row">
+      <div className="container">
+        <div className="section-content">
+          <div className="row">
             
-            <div class="col-md-12">
-              <h2 class="font-size-38 mt-0">Product  <span style={{color:"#364182"}}> & Personal </span> Certification </h2>
+            <div className="col-md-12">
+              <h2 className="font-size-38 mt-0">Product  <span style={{color:"var(--tg-background-color)"}}> & Personal </span> Certification </h2>
               
-               <p class="lead " align="justify">
+               <p className="lead " align="justify">
 
 <strong>Product certification </strong><br/>
 

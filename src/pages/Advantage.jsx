@@ -6,14 +6,14 @@ const Advantage = () => {
     <div>
       <Navbar/>
       <section id="about" style={{paddingTop:134, marginLeft:20}}>
-      <div class="container">
-        <div class="section-content">
-          <div class="row">
+      <div className="container">
+        <div className="section-content">
+          <div className="row">
             
-            <div class="col-md-12">
-              <h2 class="font-size-38 mt-0">Advantage  <span style={{color:"#364182"}}> of Accreditation</span> </h2>
+            <div className="col-md-12">
+              <h2 className="font-size-38 mt-0">Advantage  <span style={{color:"var(--tg-background-color)"}}> of Accreditation</span> </h2>
               
-               <p class="lead " align="justify">
+               <p className="lead " align="justify">
 &raquo;	Accreditation standards are generally considered optimal and attainable.<br/><br/>
 &raquo;	Accreditation gives an organization a visible commitment to improve the quality of its products and / or services, ensure a safe environment, and is constantly working to reduce risk.<br/><br/>
 &raquo;	Independent evaluations contribute to the success of the organization.<br/><br/>

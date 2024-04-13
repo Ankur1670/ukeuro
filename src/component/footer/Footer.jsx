@@ -42,11 +42,11 @@ const Footer = () => {
                     <h4>Get In Touch</h4>
                     <ul>
                         <li><CiLocationOn />
- <span>Gebirgsjaegerstrasse 29, Kirchdorf In Tirol, 6382, Austria</span></li>
+ <span>{import.meta.env.VITE__ADDRESS}</span></li>
                         <li><MdEmail />
- <span>info.eurouk@gmail.com</span></li>
+ <span>{import.meta.env.VITE__ADDRESS}</span></li>
                         <li><FaFirefoxBrowser />
-<span>euroukals.org.uk</span></li>
+<span>{ import.meta.env.VITE__URL }</span></li>
                     </ul>
                 </div>
             </div>
@@ -56,7 +56,8 @@ const Footer = () => {
        <div className="copyright_section">
         <div className="container">
             <h5 className="text-center">
-            &copy; Copyright 2022 by Euro UK Accreditation Licensing Services | All rights reserved.
+            &copy; Copyright 2024 by SWED UK LICSERV
+                LICENSING SERVICES | All rights reserved.
 
 
 

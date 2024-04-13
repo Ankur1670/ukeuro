@@ -6,14 +6,14 @@ const Fee = () => {
     <div>
        <Navbar/>
        <section id="about" style={{paddingTop:134, marginLeft:20}}>
-      <div class="container">
-        <div class="section-content">
-          <div class="row">
+      <div className="container">
+        <div className="section-content">
+          <div className="row">
             
-            <div class="col-md-12">
-              <h2 class="font-size-38 mt-0">Fee <span style={{color:"#364182"}}> Criteria</span></h2>
+            <div className="col-md-12">
+              <h2 className="font-size-38 mt-0">Fee <span style={{color:"var(--tg-background-color)"}}> Criteria</span></h2>
               
-               <p class="lead " align="justify">
+               <p className="lead " align="justify">
                
              <strong>  The fee structure is based on the following criteria:</strong><br/><br/>
 

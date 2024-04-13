@@ -1,9 +1,9 @@
 .text-theme-colored{
-    color: #00a3c8 ;
+    color: var(--tg-background-color) ;
 }
 
 .btn-theme-colored{
-    background-color: #00a3c8;
+    background-color: var(--tg-background-color);
     border-radius: 0;
     border: 0;
 }

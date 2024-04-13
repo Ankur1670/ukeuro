@@ -6,7 +6,7 @@ const Overview = () => {
     <div>
       <Navbar/>
       <div className="ov" style={{paddingTop:134, marginLeft:20}}>
-        <h2>Intoduction <span style={{color:"#364182"}}>Euro Uk Accreditation</span></h2>
+        <h2>Intoduction <span style={{color:"var(--tg-background-color)"}}>Euro Uk Accreditation</span></h2>
         <p>We, EUALS Accreditation Licensing Services is self certification & inspection body providing value added services in all types of certification & inspection to big and small organizations.
 </p>
         <p>We have vast experience in different sectors like Food Industry, Institutions, Business Services, Manufacturing, Construction etc. Our certification is valid for national and internationally tender. We provide hazel free process including best service & prices.

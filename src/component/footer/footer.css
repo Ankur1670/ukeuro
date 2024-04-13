@@ -30,7 +30,7 @@
 }
 .footer_section .row .add ul li{
     
-color:#364182;
+color:var(--tg-background-color);
 border-bottom: 0px;
 
 }

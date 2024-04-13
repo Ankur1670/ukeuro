@@ -107,7 +107,7 @@ const Banner = () => {
                     <div className="card-body">
                         <h4 className='card-title'> Management System</h4>
                         <p className="card-text">Management system certification provided by EUALS under such sections. ISO stands for International Organization for Standardization.</p>
-                        <a href="" className="btn">Read More</a>
+                        <a href="/check" className="btn">Read More</a>
                     </div>
                 </div>
             </div>
@@ -117,7 +117,7 @@ const Banner = () => {
                     <div className="card-body">
                         <h4 className='card-title'> Search Accredited Body</h4>
                         <p className="card-text">Want to check the name of an accredited body to verify the accreditation level (Management System Standard / Product & Personal Certification / Rating etc.</p>
-                        <a href="" className="btn">Check Now</a>
+                        <a href="/check" className="btn">Check Now</a>
                     </div>
                 </div>
             </div>
@@ -127,7 +127,7 @@ const Banner = () => {
                     <div className="card-body">
                         <h4 className='card-title'> Check Certified Company</h4>
                         <p className="card-text">Please check out the status of your company for the level (management system standard/product & personal certification/rating etc.)</p>
-                        <a href="" className="btn">Check Now</a>
+                        <a href="/check" className="btn">Check Now</a>
                     </div>
                 </div>
             </div>
@@ -137,7 +137,7 @@ const Banner = () => {
                     <div className="card-body">
                         <h4 className='card-title'> Become accredited</h4>
                         <p className="card-text">first of All will have to enquire about the requirement in your segment. Submit the application form including with accreditation fee</p>
-                        <a href="" className="btn">Read More</a>
+                        <a href="/check" className="btn">Read More</a>
                     </div>
                 </div>
             </div>

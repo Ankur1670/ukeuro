@@ -11,7 +11,7 @@ const Knowabout = () => {
           <div class="row">
             
             <div class="col-md-12">
-              <h2 class="font-size-38 mt-0">Know   <span style={{color:"#364182"}}> About</span> Accreditation  </h2>
+              <h2 class="font-size-38 mt-0">Know   <span style={{color:"var(--tg-background-color)"}}> About</span> Accreditation  </h2>
               
               
               <p class="lead" align="justify">
