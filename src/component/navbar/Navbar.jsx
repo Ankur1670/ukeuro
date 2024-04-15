@@ -10,7 +10,7 @@ const Navbar = () => {
       };
   return (
     <nav className="navbar">
-    <div className="navbar-logo "><img className='img-fluid' src={logo} alt="" /></div>
+    <div className="navbar-logo "><img className='img-fluid' src={localStorage.getItem('logo')} alt="" /></div>
     <ul className={isOpen ? "navbar-links active" : "navbar-links "}>
       <li><a href="/">Home</a></li>
       <li className="nav-item dropdown">
