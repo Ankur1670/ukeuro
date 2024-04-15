@@ -70,14 +70,14 @@ const Contact = () => {
                                     <a className="media-left pull-left flip mr-20" href="#"> <i className="pe-7s-map-2 text-theme-colored"></i></a>
                                     <div className="media-body">
                                         <h5 className="mt-0">Office Location</h5>
-                                        <p>Gebirgsjaegerstrasse 29, Kirchdorf In Tirol, 6382, Austria</p>
+                                        <p>{localStorage.getItem('address')}</p>
                                     </div>
                                 </div>
 
                                 <div className="icon-box media mb-15"> <a className="media-left pull-left flip mr-15" href="#"> <i className="pe-7s-mail text-theme-colored"></i></a>
                                     <div className="media-body">
                                         <h5 className="mt-0">Email Address</h5>
-                                        <p><a href="#"> info.eurouk@gmail.com</a></p>
+                                        <p><a href="#"> {localStorage.getItem('email')}</a></p>
                                     </div>
                                 </div>
 

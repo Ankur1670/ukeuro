@@ -11,7 +11,8 @@ const Footer = () => {
         <div className="container-fluid">
             <div className="row">
                 <div className="col-lg-3 col md-3  col-sm-12">
-<img src={f1} alt="" className='rounded offset-md-3 w-50' />
+
+<img src={localStorage.getItem('logo_2')} alt="" className='rounded offset-md-3 w-50' />
                 </div>
                 <div className="col-lg-3 col md-3 col-sm-12">
                     <h4>Useful Links</h4>
@@ -42,11 +43,11 @@ const Footer = () => {
                     <h4>Get In Touch</h4>
                     <ul>
                         <li><CiLocationOn />
- <span>{import.meta.env.VITE__ADDRESS}</span></li>
+ <span>{localStorage.getItem('address')}</span></li>
                         <li><MdEmail />
- <span>{import.meta.env.VITE__ADDRESS}</span></li>
+ <span>{localStorage.getItem('email')}</span></li>
                         <li><FaFirefoxBrowser />
-<span>{ import.meta.env.VITE__URL }</span></li>
+<span>{localStorage.getItem('url')}</span></li>
                     </ul>
                 </div>
             </div>
