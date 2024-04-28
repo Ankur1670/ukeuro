@@ -18,7 +18,7 @@ const Footer = () => {
                     <h4>Useful Links</h4>
                     <ul>
                        <li><a href="">Overview</a></li>
-                       <li><a href="">EUALS News & Event</a></li>
+                       <li><a href="">Swed News & Event</a></li>
                        <li><a href="">Enquire Now</a></li>
                        <li><a href="">Fee Criteria</a>  
 </li>
@@ -31,7 +31,7 @@ const Footer = () => {
                        <li><a href="">Know about Accreditation</a></li>
                        <li><a href="">How to Accredit your Org.</a></li>
                        <li><a href="">Advantage of Accreditation</a></li>
-                       <li><a href="">EUALS Offers Accreditation
+                       <li><a href="">Swed Offers Accreditation
 </a>  
 </li>
                        <li><a href="">Product & Personal Certification</a></li>

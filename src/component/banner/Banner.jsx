@@ -106,7 +106,7 @@ const Banner = () => {
 <img src={user} alt="" />
                     <div className="card-body">
                         <h4 className='card-title'> Management System</h4>
-                        <p className="card-text">Management system certification provided by EUALS under such sections. ISO stands for International Organization for Standardization.</p>
+                        <p className="card-text">Management system certification provided by Swed under such sections. ISO stands for International Organization for Standardization.</p>
                         <a href="/check" className="btn">Read More</a>
                     </div>
                 </div>
@@ -149,9 +149,9 @@ const Banner = () => {
 <div className="container">
     <div className="row">
         <div className="col-lg-7 col-md-7 col-sm-12 ">
-            <h2>EURO UK ACCREDITATION LICENSING SERVICES
+            <h2>Swed Uk Licserv LICENSING SERVICES
 </h2>
-<p>We, EUALS Accreditation Licensing Services is self certification & inspection body providing value added services in all types of certification & inspection to big and small organizations.
+<p>We, Swed Accreditation Licensing Services is self certification & inspection body providing value added services in all types of certification & inspection to big and small organizations.
 </p>
 <p>We have vast experience in <b> different sectors like Food Industry, Institutions, Business Services, Manufacturing, Construction etc.
 </b>
@@ -171,10 +171,10 @@ const Banner = () => {
 
 <div className="offer_section">
     <div className="container">
-        <h2 className="text-center mt-5">EUALS OFFERS ACCREDITATION
+        <h2 className="text-center mt-5">Swed OFFERS ACCREDITATION
 </h2>
 <img src={o1} alt="" className='rounded mx-auto d-block mt-1' />
-<p className="text-center">EUALS offers accreditation for the following management system certification schemes:
+<p className="text-center">Swed offers accreditation for the following management system certification schemes:
 
 </p>
 <div className="row">

@@ -42,7 +42,7 @@ const Navbar = () => {
 
           </ul>
         </li>
-      <li><a href="/inspection">EUALS Inspection</a></li>
+      <li><a href="/inspection">Swed Inspection</a></li>
       <li><a href="/career">Career</a></li>
       <li><a href="/contact">Contact</a></li>
 

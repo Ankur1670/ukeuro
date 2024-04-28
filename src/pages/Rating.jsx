@@ -16,9 +16,9 @@ const Rating = () => {
                <p class="lead " align="justify">Stars are often used as symbols for classification purposes. Critics use them to classify items such as films, TV shows, restaurants, and hotels. For example, one to five stars are commonly used to classify hotels.<br/><br/>
 
 
-Accredits conformity assessment bodies (CABs) that provide ratings according to a set of common quality standards recognized by EUALS authorities.<br/><br/>
+Accredits conformity assessment bodies (CABs) that provide ratings according to a set of common quality standards recognized by Swed authorities.<br/><br/>
 
- EUALS welcomes new CABs interested in applying; however, the CAB must be aware that it must demonstrate that it is capable of providing evaluation services.
+ Swed welcomes new CABs interested in applying; however, the CAB must be aware that it must demonstrate that it is capable of providing evaluation services.
 
 Our accreditation services are classified for scoring<br/><br/>
 
