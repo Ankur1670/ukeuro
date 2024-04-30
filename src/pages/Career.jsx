@@ -29,7 +29,7 @@ Open Door System</b></p>
 </b></p>
 <p>Additional needs of our staff in Swed Uk Licserv Licensing Services, we take an individual approach. We try to understand their problems and to help in every possible way, both professionally and personally try.
 </p>
-<p><b>Send your resumes to: info.eurouk@gmail.com
+<p><b>Send your resumes to: info@sweduklicserv.com
 
 </b></p>
 

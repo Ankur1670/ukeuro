@@ -40,7 +40,7 @@ This amount is paid by a certificate issued by the organizations.<br/><br/>
 Download tariff structure<br/>
 
 
-Write to <strong>info.eurouk@gmail.com</strong><br/><br/>
+Write to <strong>info@sweduklicserv.com</strong><br/><br/>
 
 
 
