@@ -95,6 +95,10 @@ const Check = () => {
                                                   <td>{response.ExpiryDate}</td>
                                               </tr>
 
+                                              <tr>
+                                                  <th style={{color:"#196ABB"}}>View Certificate</th>
+                                                  <td><a href={response.certificate_file}>Click Me</a></td>
+                                              </tr>
                                               </thead>
 
                                           </table>
